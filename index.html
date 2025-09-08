@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TechX 2025 Landing Page</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; color: #272727; line-height: 1.5; }
+
+    nav {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 20px 40px; background: #ffffff; color: #000000;
+    }
+    nav .logo { font-size: 1.5rem; font-weight: bold; }
+    nav ul { display: flex; list-style: none; }
+    nav ul li { margin-left: 20px; }
+    nav ul li a { color: #000000; text-decoration: none; font-size: 1rem; }
+
+    .hero {
+      background: url('background1.jpg') no-repeat center/cover;
+      height: 90vh; min-height: 400px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      color: #fff; text-align: center; padding: 0 20px;
+    }
+    .hero h1 { font-size: 3rem; margin-bottom: 10px; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); }
+    .hero p { font-size: 1.25rem; margin-bottom: 20px; }
+    .hero .cta { background: #ff8000; color: #fff; padding: 15px 30px; border: none;
+                 font-size: 1.1rem; cursor: pointer; border-radius: 4px; }
+    .hero .cta:hover { background: #005bb5; }
+
+    .logos {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .logo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px; 
+      align-items: center; 
+      justify-items: center;
+    }
+    .logo-grid img {
+       max-width: 100%; 
+       height: auto; 
+      }
+
+    footer {
+      background: #ffffff; color: #000000; padding: 20px 40px;
+      text-align: center; font-size: 0.9rem;
+    }
+    footer p { margin-bottom: 10px; }
+    footer .social-icons img { width: 30px; margin: 0 8px; vertical-align: middle; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">TechX logo + IEEE-CS logo</div>
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Schedule</a></li>
+      <li><a href="#">Speakers</a></li>
+      <li><a href="#">Register</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>TechX Florida 2025</h1>
+    <p>Join us on November 8, 2025 ...</p>
+    <a href="https://bullsconnect.usf.edu/ieeecs/rsvp_boot?id=1985102" target="_blank">
+    <button class="cta">Register</button>
+  </section>
+
+...
+
+  <section class="logos"> 
+    <div class="logo-grid">
+      <img src="https://" alt="Logo 1">
+    </div>
+
+  <footer>
+    <p>Follow us on</p>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/company/ieee-cs-at-usf" target="_blank">
+        <img src="https://www.linkedin.com/company/ieee-cs-at-usf" alt="LinkedIn">
+      </a>
+      <a href="https://www.instagram.com/ieeecs_usf/" target="_blank">
+        <img src="https://www.instagram.com/ieeecs_usf/" alt="Instagram">
+    </div>
+  </footer>
+
+</body>
+</html>
